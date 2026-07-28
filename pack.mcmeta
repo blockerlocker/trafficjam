@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "A timeloop where the player must avoid colliding with past clones.",
+    "min_format": 112,
+    "max_format": 112
+  }
+}

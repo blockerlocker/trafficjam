@@ -1,0 +1,1 @@
+$tp @p $(origin_x) $(origin_y) $(origin_z) $(rotation_x) $(rotation_y)

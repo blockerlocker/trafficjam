@@ -1,0 +1,1 @@
+execute if data storage trafficjam:state all{active:true} run function zzz:trafficjam/active_tick
