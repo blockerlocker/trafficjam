@@ -18,7 +18,7 @@ execute if score #round_start trafficjam matches 1.. run return fail
 attribute @p movement_speed modifier remove trafficjam:immobile
 attribute @p jump_strength modifier remove trafficjam:immobile
 
-execute if score #loop trafficjam matches 1.. run function zzz:trafficjam/mannequin/summon/main
+execute if score #loop trafficjam matches 2.. run function zzz:trafficjam/mannequin/summon/main
 
 function zzz:trafficjam/goal/pick_random
 
@@ -30,9 +30,6 @@ title @a subtitle {storage:"trafficjam:temp",nbt:"all.start_title",interpret:tru
 data remove storage trafficjam:temp all
 
 execute as @p at @s run playsound block.note_block.pling ui @s ~ ~ ~ 1 2
-
-scoreboard players set #tick trafficjam 0
-scoreboard players add #loop trafficjam 1
 
 data modify storage trafficjam:state all.round_start set value false
 data modify storage trafficjam:state all.looping set value true

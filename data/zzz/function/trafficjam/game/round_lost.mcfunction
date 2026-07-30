@@ -1,3 +1,5 @@
+execute if data storage trafficjam:state all{game_over:true} run return run data merge storage trafficjam:state {all:{active:false,looping:false,round_start:false}}
+
 function zzz:trafficjam/reset/main
 
 execute as @p at @s run playsound entity.player.hurt ui @s

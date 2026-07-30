@@ -4,6 +4,9 @@ data modify storage trafficjam:state all.looping set value false
 effect give @p instant_health 10 10 true
 effect give @p saturation 10 10 true
 
+scoreboard players set #tick trafficjam 0
+scoreboard players add #loop trafficjam 1
+
 function zzz:trafficjam/reset/teleport_players with storage trafficjam:state all
 
 function zzz:trafficjam/mannequin/remove_all

@@ -4,6 +4,6 @@ execute if score #timer trafficjam matches 0 as @p at @s run function zzz:traffi
 
 scoreboard players add #tick trafficjam 1
 
-execute as @p at @s run function zzz:trafficjam/player/tick
+execute unless data storage trafficjam:state all{game_over:true} as @p at @s run function zzz:trafficjam/player/tick
 
 execute as @e[type=mannequin,tag=trafficjam_mannequin] run function zzz:trafficjam/mannequin/tick
