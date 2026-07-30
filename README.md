@@ -1,5 +1,7 @@
 For Minecraft 26.3
 
+This data pack puts you in a timeloop where you have reach differently colored goals in a random order. If you touch a past clone of yourself, you instantly die.
+
 Although most of my data packs are generally somewhat multiplayer compatible, this one absolutely is not right now. I'm gonna change that in the future but for now I just wanted to put together something that worked.
 
 To set up the game, build a parkour course, and then use the commands below to place the different colored goals around the map.
@@ -13,6 +15,10 @@ These are the supported goal colors:
 - red
 - white
 - yellow
+- black
+- orange
+- gray
+- cyan
 
 | Command | Description |
 | --- | --- |
